@@ -12,8 +12,8 @@ set /p old_season=<"%data_file%"
 :: winter season: 1
 :: summer season: 2
 
-set "current_term_folder=%userprofile%\Documents\Personal Documents\School Documents\Current Term"
 set "class_folders_root=%userprofile%\Documents\Personal Documents\School Documents"
+set "current_term_folder=%class_folders_root%\Current Term"
 set "icons=%cd%\icons"
 
 set "fall=%icons%\fall_sem.ico"
